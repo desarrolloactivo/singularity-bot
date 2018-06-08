@@ -154,17 +154,19 @@ var data = {
 	"01.01.2018": 13354.0
 }
 
-module.exports = {
-	getData: getData(),
-	getList: getList()
-}
 function getData() {
 	return data
 }
+
 function getList() {
 	var list = []
 	for (var i in data) {
 		list.push(data[i])
 	}
 	return list
+}
+
+module.exports = {
+	getData: getData(),
+	getList: getList()
 }
