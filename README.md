@@ -14,13 +14,13 @@ One to two paragraph statement about your product and what it does.
 Npm:
 
 ```sh
-npm install singularity-crypto-trading-bot --save
+npm i
 ```
 
 Yarn:
 
 ```sh
-yarn add singularity-crypto-trading-bot
+yarn
 ```
 
 ## Usage example
