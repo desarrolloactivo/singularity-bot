@@ -1,0 +1,8 @@
+{
+  "name": "singularity-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:desarrolloactivo/singularity-bot.git",
+  "author": "(carlos4php <carlos4php@gmail.com>)",
+  "license": "MIT"
+}
