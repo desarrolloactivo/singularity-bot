@@ -963,8 +963,13 @@ function getData() {
 
 function getList() {
 	var list = []
+	var list2 = []
 	for (var i in data) {
-		list.push(data[i])
+		list2.push(data[i])
+	}
+	for (let i = list2.length; i > 0 ; i--) {
+		const el = list2[i];
+		list.push(el)
 	}
 	return list
 }
